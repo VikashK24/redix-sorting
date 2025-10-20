@@ -8,6 +8,7 @@
 
 ```
 git clone https://github.com/VikashK24/redix-sorting.git
+cd redix-sorting
 make 
 ./a.out
 ```
