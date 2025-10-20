@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "rslib.h"
 
-// Main function
+// Main function:radix-sort function called in main 
 int main() {
     int arr[] = {40,23,167,17};
     int n = sizeof(arr)/sizeof(arr[0]);
