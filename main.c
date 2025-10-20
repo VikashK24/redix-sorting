@@ -3,7 +3,7 @@
 
 // Main function
 int main() {
-    int arr[] = {0, 45, 75, 90, 34, 2, 9};
+    int arr[] = {40,23,167,17};
     int n = sizeof(arr)/sizeof(arr[0]);
 
     radixSort(arr, n);
