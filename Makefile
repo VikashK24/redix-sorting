@@ -3,15 +3,15 @@
 # target program
 
 # default rule
-a.out : mainRS.o
-	   gcc mainRS.o 
+a.out : main.o rslib.o
+	   gcc main.o rslib.o
 
 # compile source files into object files
-mainRS.o: mainRS.c
-	gcc -c mainRS.c
+main.o: main.c rslib.h
+	gcc -c main.c
 
-#listlib.o: listlib.c listlib.h
-#	   gcc -c listlib.c
+rslib.o: rslib.c rslib.h
+	   gcc -c rslib.c
 
 # clean up build files
 clean:
