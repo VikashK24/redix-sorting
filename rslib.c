@@ -40,3 +40,5 @@ void countingSort(int arr[], int n, int exp) {
     for (int i = 0; i < n; i++)
         arr[i] = output[i];
 }
+//time complexity : O(d(n+k))  same for all cases (best, average and worst),as radix sort doesn't  depend on the input order
+//sapce complexity : O(n + k)  due to the count and outpaut array
